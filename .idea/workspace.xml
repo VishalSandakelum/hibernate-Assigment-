@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d7124a3-4a41-4190-a3bd-49aee035122c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/config/SessionFactoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/config/SessionFactoryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/contoller/ManageorderdetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/contoller/ManageorderdetailsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/repository/OrderDetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/repository/OrderDetailsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/manageorderdetails.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/manageorderdetails.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/contoller/ManageorderdetailsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/contoller/ManageorderdetailsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/repository/OrderDetailsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/thogakade/repository/OrderDetailsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/manageorderdetails.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/manageorderdetails.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/entity/orderdetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/entity/orderdetail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +95,7 @@
       <workItem from="1691651312868" duration="1037000" />
       <workItem from="1691652498813" duration="193000" />
       <workItem from="1691736006318" duration="3965000" />
-      <workItem from="1691743403478" duration="24665000" />
+      <workItem from="1691743403478" duration="25381000" />
     </task>
     <servers />
   </component>

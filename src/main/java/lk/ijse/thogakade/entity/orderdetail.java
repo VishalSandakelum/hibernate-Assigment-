@@ -9,7 +9,7 @@ public class orderdetail {
     @Id
     @JoinColumn(name = "orderid")
     private Orders orders;
-    @Id
+
     @JoinColumn(name = "itemCode")
     private Item item;
     @Column(name = "qty")
