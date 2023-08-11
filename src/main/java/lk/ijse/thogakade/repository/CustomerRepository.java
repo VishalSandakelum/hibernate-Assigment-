@@ -30,7 +30,7 @@ public class CustomerRepository {
         }
     }
 
-    public Customer getCustomer(int id) {
+    public Customer getCustomer(String id) {
         try {
             Customer customer = session.get(Customer.class, id);
             session.close();
