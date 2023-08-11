@@ -22,7 +22,6 @@ public class ManageorderController {
     public void savebtnonaction(ActionEvent actionEvent) {
         if(checkNull()==true){
 
-            System.out.println(datetxt.getValue());
             Orders orders = new Orders();
             Customer customer = new Customer();
             orders.setId(idtxt.getText());
@@ -38,14 +37,44 @@ public class ManageorderController {
     }
 
     public void updatebtnonaction(ActionEvent actionEvent) {
-
+        Orders orders = new Orders();
+        Customer customer = new Customer();
+        OrderRepository orderRepository = new OrderRepository();
+        orders.setId(idtxt.getText());
+        customer.setId(customeridtxt.getText());
+        orders.setCustomer(customer);
+        boolean isUpdated = orderRepository.updateOrders(orders);
+        if (isUpdated) {
+            System.out.println("Orders Updated!");
+            clear();
+        } else {
+            System.out.println("Orders Update Failed!");
+        }
     }
 
     public void deletebtnonaction(ActionEvent actionEvent) {
-
+        if(idtxt.getText()!=null){
+            Orders orders = new Orders();
+            Customer customer = new Customer();
+            OrderRepository orderRepository = new OrderRepository();
+            orders.setId(idtxt.getText());
+            customer.setId(customeridtxt.getText());
+            orders.setCustomer(customer);
+            boolean isDeleted = orderRepository.deleteOrders(orders);
+            if (isDeleted) {
+                System.out.println("Orders Deleted!");
+                clear();
+            } else {
+                System.out.println("Orders Deletion Failed!");
+            }
+        }
     }
 
     public void searchbtnonaction(ActionEvent actionEvent) {
+        OrderRepository orderRepository = new OrderRepository();
+        Orders orders = orderRepository.getOrders(idtxt.getText());
+        Customer customer = orders.getCustomer();
+        customeridtxt.setText(customer.getId());
 
     }
 
