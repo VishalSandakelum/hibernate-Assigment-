@@ -1,10 +1,16 @@
 package lk.ijse.thogakade.contoller;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.input.ZoomEvent;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class FirstpageController {
     public Button savebtn;
@@ -14,6 +20,10 @@ public class FirstpageController {
     public static int count;
 
     public void savebtnonAction(ActionEvent actionEvent) {
+
+        LoadFile.path = "/view/savecustomerForm.fxml";
+        LoadFile.setPath();
+
         count+=1;
         if(count==10){
             code.setVisible(true);

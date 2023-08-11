@@ -14,7 +14,7 @@ public class SessionFactoryConfig {
         sessionFactory = new Configuration().configure().addAnnotatedClass(Customer.class).buildSessionFactory();
     }
 
-    private static SessionFactoryConfig getInstance(){
+    public static SessionFactoryConfig getInstance(){
         return (factoryConfig==null) ? factoryConfig = new SessionFactoryConfig() : factoryConfig;
     }
 
