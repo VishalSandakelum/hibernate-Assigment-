@@ -11,7 +11,7 @@ public class Customer {
 
     @Id
     @Column(name = "id",length = 8)
-    private int id;
+    private String id;
     @Column(name = "name",nullable = false, length = 40)
     private String name;
     @Column(name = "address",nullable = false,length = 40)
@@ -23,18 +23,18 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(int id, String name, String address, double salary) {
+    public Customer(String id, String name, String address, double salary) {
         this.id = id;
         this.name = name;
         this.address = address;
         this.salary = salary;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -65,7 +65,7 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "id=" + id +
+                "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", salary=" + salary +
