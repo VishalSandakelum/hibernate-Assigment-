@@ -22,10 +22,10 @@ public class ManageorderController {
     public void savebtnonaction(ActionEvent actionEvent) {
         if(checkNull()==true){
 
+            System.out.println(datetxt.getValue());
             Orders orders = new Orders();
-            orders.setId(idtxt.getText());
-            orders.setDate(datetxt.getValue());
             Customer customer = new Customer();
+            orders.setId(idtxt.getText());
             customer.setId(customeridtxt.getText());
             orders.setCustomer(customer);
 

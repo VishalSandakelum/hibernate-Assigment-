@@ -1,6 +1,9 @@
 package lk.ijse.thogakade.entity;
 
+import org.hibernate.annotations.CreationTimestamp;
+
 import javax.persistence.*;
+import java.sql.Timestamp;
 import java.time.LocalDate;
 import java.util.Date;
 
@@ -9,10 +12,10 @@ import java.util.Date;
 public class Orders {
 
     @Id
-    @Column(name = "id",length = 7)
+    @Column(name = "id")
     private String id;
-    @Column(name = "date")
-    private LocalDate date;
+    @CreationTimestamp
+    private Timestamp date;
     @ManyToOne
     @JoinColumn(name = "customerId")
     private Customer customer;
@@ -21,9 +24,8 @@ public class Orders {
     public Orders() {
     }
 
-    public Orders(String id, LocalDate date, Customer customer) {
+    public Orders(String id, Customer customer) {
         this.id = id;
-        this.date = date;
         this.customer = customer;
     }
 
@@ -33,14 +35,6 @@ public class Orders {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public LocalDate getDate() {
-        return date;
-    }
-
-    public void setDate(LocalDate date) {
-        this.date = date;
     }
 
     public Customer getCustomer() {
