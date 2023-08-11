@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d7124a3-4a41-4190-a3bd-49aee035122c" name="Default Changelist" comment="" />
+    <list default="true" id="2d7124a3-4a41-4190-a3bd-49aee035122c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/repository/ItemRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +94,7 @@
       <workItem from="1691651312868" duration="1037000" />
       <workItem from="1691652498813" duration="193000" />
       <workItem from="1691736006318" duration="3965000" />
-      <workItem from="1691743403478" duration="9208000" />
+      <workItem from="1691743403478" duration="9656000" />
     </task>
     <servers />
   </component>
