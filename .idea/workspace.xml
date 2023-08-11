@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d7124a3-4a41-4190-a3bd-49aee035122c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/contoller/SavecustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/contoller/SavecustomerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/thogakade/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/savecustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/savecustomerForm.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="2d7124a3-4a41-4190-a3bd-49aee035122c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2TjuFSrox3EySJ9Gm3m9NBHl0k7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,7 +92,7 @@
       <workItem from="1691651312868" duration="1037000" />
       <workItem from="1691652498813" duration="193000" />
       <workItem from="1691736006318" duration="3965000" />
-      <workItem from="1691743403478" duration="8803000" />
+      <workItem from="1691743403478" duration="9208000" />
     </task>
     <servers />
   </component>
