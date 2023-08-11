@@ -31,9 +31,9 @@ public class ItemRepository {
         }
     }
 
-    public Item getItem(String id) {
+    public Item getItem(String code) {
         try {
-            Item item = session.get(Item.class, id);
+            Item item = session.get(Item.class, code);
             session.close();
             return item;
         } catch (Exception e) {

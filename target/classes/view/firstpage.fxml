@@ -19,27 +19,22 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <Button fx:id="savebtn" layoutX="220.0" layoutY="118.0" mnemonicParsing="false" onAction="#savebtnonAction" prefHeight="33.0" prefWidth="183.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Save Customer">
+      <Button fx:id="savebtn" layoutX="220.0" layoutY="118.0" mnemonicParsing="false" onAction="#savebtnonAction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Customer">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Button>
-      <Button layoutX="220.0" layoutY="163.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="183.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Update Customer">
+      <Button fx:id="manageItembtn" layoutX="220.0" layoutY="163.0" mnemonicParsing="false" onAction="#manageItembtnonAction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Item">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Button>
-      <Button layoutX="220.0" layoutY="208.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="183.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Delete Customer">
+      <Button fx:id="manageOrderbtn" layoutX="220.0" layoutY="208.0" mnemonicParsing="false" onAction="#manageOrderbtnonAction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Button>
-      <Button layoutX="220.0" layoutY="252.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="183.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Add Item">
-         <font>
-            <Font name="System Bold" size="16.0" />
-         </font>
-      </Button>
-      <Button layoutX="220.0" layoutY="298.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="183.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Add Order">
+      <Button fx:id="orderdetailbtn" layoutX="220.0" layoutY="252.0" mnemonicParsing="false" onAction="#orderdetailbtnonaction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order Details">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>

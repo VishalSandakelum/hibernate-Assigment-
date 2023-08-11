@@ -18,6 +18,9 @@ public class FirstpageController {
     public Text code;
     public static String Hcode;
     public static int count;
+    public Button manageItembtn;
+    public Button manageOrderbtn;
+    public Button orderdetailbtn;
 
     public void savebtnonAction(ActionEvent actionEvent) {
 
@@ -30,6 +33,21 @@ public class FirstpageController {
         }
     }
 
+    public void manageItembtnonAction(ActionEvent actionEvent) {
+        LoadFile.path = "/view/manageitem.fxml";
+        LoadFile.setPath();
+    }
+
+    public void manageOrderbtnonAction(ActionEvent actionEvent) {
+        LoadFile.path = "/view/manageorder.fxml";
+        LoadFile.setPath();
+    }
+
+    public void orderdetailbtnonaction(ActionEvent actionEvent) {
+        LoadFile.path = "/view/manageorderdetails.fxml";
+        LoadFile.setPath();
+    }
+
     public void txtfieldonaction(ActionEvent actionEvent) {
         if(txtfield.getText().equals(Hcode)){
             code.setVisible(true);
@@ -40,4 +58,5 @@ public class FirstpageController {
             savebtn.requestFocus();
         }
     }
+
 }

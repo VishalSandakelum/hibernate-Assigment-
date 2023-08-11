@@ -24,17 +24,17 @@
             <Font name="System Bold" size="16.0" />
          </font>
       </Button>
-      <Button layoutX="220.0" layoutY="163.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Item">
+      <Button fx:id="manageItembtn" layoutX="220.0" layoutY="163.0" mnemonicParsing="false" onAction="#manageItembtnonAction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Item">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Button>
-      <Button layoutX="220.0" layoutY="208.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order">
+      <Button fx:id="manageOrderbtn" layoutX="220.0" layoutY="208.0" mnemonicParsing="false" onAction="#manageOrderbtnonAction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Button>
-      <Button layoutX="220.0" layoutY="252.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order Details">
+      <Button fx:id="orderdetailbtn" layoutX="220.0" layoutY="252.0" mnemonicParsing="false" onAction="#orderdetailbtnonaction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order Details">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>

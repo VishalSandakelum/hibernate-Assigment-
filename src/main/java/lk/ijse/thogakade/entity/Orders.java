@@ -1,7 +1,8 @@
 package lk.ijse.thogakade.entity;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.time.LocalDate;
+import java.util.Date;
 
 @Entity
 @Table(name = "orders")
@@ -11,7 +12,7 @@ public class Orders {
     @Column(name = "id",length = 7)
     private String id;
     @Column(name = "date")
-    private Date date;
+    private LocalDate date;
     @ManyToOne
     @JoinColumn(name = "customerId")
     private Customer customer;
@@ -20,7 +21,7 @@ public class Orders {
     public Orders() {
     }
 
-    public Orders(String id, Date date, Customer customer) {
+    public Orders(String id, LocalDate date, Customer customer) {
         this.id = id;
         this.date = date;
         this.customer = customer;
@@ -34,11 +35,11 @@ public class Orders {
         this.id = id;
     }
 
-    public Date getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 
